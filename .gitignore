@@ -15,6 +15,7 @@ venv/
 # Generated files
 *.html
 *.csv
+*.xlsx
 
 # OS files
 .DS_Store

@@ -6,6 +6,7 @@ from data_loader import DataLoader
 from model import Model
 from evaluator import Evaluator
 from database_orm import DatabaseORM
+from regression_params import RegressionParams
 from visualizer import Visualizer
 import logging
 
@@ -63,6 +64,18 @@ def main():
     viz.plot_test_vs_ideal_functions(ideal_df, results_df, unmatched_df, best_fit)
     viz.plot_assignments(results_df)
     viz.make_pretty(training_mapping_df, test_assignment_df, results_df, unmatched_df)
+
+    # 6. Additional function: Parameter calculation
+    calculator = RegressionParams(train_df, ideal_df)
+    all_params = calculator.get_regression_params()
+    train_params = all_params['train']
+    ideal_params = all_params['ideal']
+
+    train_params_df = pd.DataFrame(train_params)
+    ideal_params_df = pd.DataFrame(ideal_params)
+
+    train_params_df.to_excel('train_params.xlsx', index=False)
+    ideal_params_df.to_excel('ideal_params.xlsx', index=False)
 
 if __name__ == '__main__':
     main()

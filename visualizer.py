@@ -480,14 +480,14 @@ class Visualizer:
 
         with open('test_assignment_styler.html', 'w', encoding='utf-8') as f:
             f.write(test_styler.to_html())
-        hti.screenshot(html_file='test_assignment_styler.html', save_as='datasets/test_assignment_styler.png')
+        hti.screenshot(html_file='test_assignment_styler.html', save_as='test_assignment_styler.png')
 
         with open('results_styler.html', 'w', encoding='utf-8') as f:
             f.write(results_styler.to_html())
 
         with open('unmatched_styler.html', 'w', encoding='utf-8') as f:
             f.write(unmatched_styler.to_html())
-        hti.screenshot(html_file='unmatched_styler.html', save_as='datasets/unmatched_styler.png')
+        hti.screenshot(html_file='unmatched_styler.html', save_as='unmatched_styler.png')
 
     def highlight_alternate(self, s):
         """Highlights every other row in the data frame lightgray."""
