@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# PyCharm
+.idea/
+
+# Database
+*.db
+
+# Generated files
+*.html
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
