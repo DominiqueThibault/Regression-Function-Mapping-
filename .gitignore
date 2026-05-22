@@ -19,3 +19,9 @@ venv/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Specific folders
+raw_datasets/
+
+# Specific files
+training_mapping_styler
