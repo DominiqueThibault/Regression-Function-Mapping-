@@ -12,9 +12,6 @@ venv/
 # Database
 *.db
 
-# Files
-descriptives.py
-
 # Generated files
 *.html
 *.csv
