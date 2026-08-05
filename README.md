@@ -1,8 +1,9 @@
 [50_ideal_vs_test.html](https://github.com/user-attachments/files/30743921/50_ideal_vs_test.html)# Regression Function Mapping
 
 ## Description
-Assignment project for mapping training regression functions to ideal functions using least-squares 
-optimization and deviation-based validation. 
+This project was developed as part of the IU Written Assignment for the Programming with Python course.
+
+The program maps four training regression functions to the best-fitting functions from a set of 50 ideal functions using the least-squares criterion. Subsequently, unseen test data points are assigned to the selected ideal functions if they satisfy the required deviation constraint
 
 ## Features
 - Least-Squares fitting
