@@ -3,7 +3,10 @@
 ## Description
 This project was developed as part of the IU Written Assignment for the Programming with Python course.
 
-The program maps four training regression functions to the best-fitting functions from a set of 50 ideal functions using the least-squares criterion. Subsequently, unseen test data points are assigned to the selected ideal functions if they satisfy the required deviation constraint
+The program maps four training regression functions to the best-fitting functions from a set of 50 ideal functions using the least-squares criterion. Subsequently, unseen test data points are assigned to the selected ideal functions if they satisfy the required deviation constraint \[
+|y_{test}-y_{ideal}| \le \sqrt{2}\cdot\max|y_{training}-y_{ideal}|.
+
+Results are stored in an SQLIte database and visualized via Bokeh.
 
 ## Features
 - Least-Squares fitting
