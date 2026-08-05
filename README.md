@@ -1,4 +1,4 @@
-[50_ideal_vs_test.html](https://github.com/user-attachments/files/30743921/50_ideal_vs_test.html)# Regression Function Mapping
+# Regression Function Mapping
 
 ## Description
 This project was developed as part of the IU Written Assignment for the Programming with Python course.
