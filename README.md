@@ -1,4 +1,4 @@
-# Regression Function Mapping
+[50_ideal_vs_test.html](https://github.com/user-attachments/files/30743921/50_ideal_vs_test.html)# Regression Function Mapping
 
 ## Description
 Assignment project for mapping training regression functions to ideal functions using least-squares 
@@ -52,6 +52,12 @@ python main.py
 - test point assignments (matched/ unmatched)
 - interactive Bokeh visualizations
 - Styled HTML tables
+
+## Example output
+
+<img width="1200" height="900" alt="50_ideals_vs_test" src="https://github.com/user-attachments/assets/b2c79988-00aa-47dd-8e75-cc55c914a49e" />
+
+<img width="2400" height="1245" alt="Overlay_training_ideal" src="https://github.com/user-attachments/assets/2a9a01b6-d014-41fd-bf7b-40dcdd129e26" />
 
 ## Technologies
 
