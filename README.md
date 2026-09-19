@@ -33,7 +33,7 @@ Results are stored in an SQLIte database and visualized via Bokeh.
 
 Clone the repository
 ```bash
-git clone <repository-url>
+git clone [https://github.com/DominiqueThibault/Regression-Function-Mapping-]
 cd RegressionFunctionMapping
 ```
 
