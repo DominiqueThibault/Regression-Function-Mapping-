@@ -18,6 +18,7 @@ Results are stored in an SQLIte database and visualized via Bokeh.
 - Styled HTML result tables
 
 ## Project Structure
+```text
 .
 ├── main.py
 ├── model.py
@@ -28,6 +29,7 @@ Results are stored in an SQLIte database and visualized via Bokeh.
 ├── requirements.txt
 ├── datasets/
 └── outputs/
+```
 
 ## Installation
 
